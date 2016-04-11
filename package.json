@@ -1,0 +1,24 @@
+{
+  "name": "Foundation-playground",
+  "version": "1.0.0",
+  "description": "Foundation-playground",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MindBlowingJSWorld/Foundation-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MindBlowingJSWorld/Foundation-playground/issues"
+  },
+  "homepage": "https://github.com/MindBlowingJSWorld/Foundation-playground",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "http-server": "^0.8.5"
+  }
+}

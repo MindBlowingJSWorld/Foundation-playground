@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,qBAAqB,EAAE,KAAK;EAC5B,kBAAkB,EAAE,KAAK;EACzB,aAAa,EAAC,KAAK;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,kBAAkB",
+"sources": ["partials/_profile.scss"],
+"names": [],
+"file": "app.css"
+}

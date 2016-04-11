@@ -1,0 +1,70 @@
+/****************************************************
+GENERAL
+**************************************************/
+.bg-1 {background: lightblue; }
+.bg-2 {background: lightsalmon; }
+.bg-3 {background: lightcoral; }
+.bg-4 {background: lightgray; }
+.bg-5 {background: lightgreen;}
+.bg-6 {background: lightcyan;}
+.bg-7 {background: lightseagreen;}
+
+.wrap {
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1500px;
+}
+
+
+/****************************************************
+Navigation
+**************************************************/
+
+
+
+
+/****************************************************
+HERO Section
+**************************************************/
+/*
+If 4 paras are given
+padding:  top right bottom left
+margin:   top right bottom left
+
+If shorthand, only 2 paras given
+
+padding:  top&bottom right&left
+margin:  top&bottom right&left
+
+*/
+
+.hero {
+    background-color: #999;
+    padding: 80px 10px;
+}
+
+/* play with focus and non focus*/
+.button.success {
+    background-color: purple;
+}
+
+.button {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    display: inline-block;
+}
+
+/****************************************************
+Main Section
+**************************************************/
+.main {
+
+}
+
+
+/****************************************************
+Footer
+**************************************************/
+.footer {
+
+}

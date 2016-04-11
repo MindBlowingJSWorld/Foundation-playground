@@ -1,0 +1,131 @@
+/****************************************************
+GENERAL
+**************************************************/
+.bg-1 {background: lightblue; }
+.bg-2 {background: lightsalmon; }
+.bg-3 {background: lightcoral; }
+.bg-4 {background: lightgray; }
+.bg-5 {background: lightgreen;}
+.bg-6 {background: lightcyan;}
+.bg-7 {background: lightseagreen;}
+
+.wrap {
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1500px;
+}
+
+
+/****************************************************
+Navigation
+**************************************************/
+
+.nav-desktop {
+    background-color: #222;
+    height: 80px;
+    padding: 0px;
+}
+
+.site-logo {
+    line-height: 80px;
+    color: white;
+}
+
+.nav-desktop .menu-desktop {
+    line-height: 80px;
+    background-color: transparent;
+}
+
+.nav-desktop .menu-desktop > li > a {
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+}
+
+.nav-desktop .menu-desktop > li > a:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/****************************************************
+HERO Section
+**************************************************/
+/*
+If 4 paras are given
+padding:  top right bottom left
+margin:   top right bottom left
+
+If shorthand, only 2 paras given
+
+padding:  top&bottom right&left
+margin:  top&bottom right&left
+
+*/
+
+.hero {
+    background-color: #999;
+    padding: 80px 10px;
+}
+
+/* play with focus and non focus*/
+.button.success {
+    background-color: purple;
+}
+
+.button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: inline-block;
+}
+
+/****************************************************
+Main Section
+**************************************************/
+.main {
+    padding: 80px 10px;
+}
+
+
+/*
+.blue {
+    height: 200px;
+    padding: 10px;
+}
+
+.blue:nth-child(1) {background-color: #123}
+.blue:nth-child(2) {background-color: #234}
+.blue:nth-child(3) {background-color: #324}
+.blue:nth-child(4) {background-color: #432}
+.blue:nth-child(5) {background-color: #124}
+.blue:nth-child(6) {background-color: #421}
+.blue:nth-child(7) {background-color: #423}
+.blue:nth-child(8) {background-color: #321}
+
+*/
+
+
+/****************************************************
+Footer
+**************************************************/
+footer {
+    padding:  80px 10px;
+    background-color: #222;
+
+}
+
+footer a {
+    display: block;
+}
+
+
+/****************************************************
+Media Query
+**************************************************/
+
+@media (max-width: 639px) {
+
+    .nav-desktop{
+        display: none;
+    }
+}
