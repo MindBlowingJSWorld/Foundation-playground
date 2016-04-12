@@ -1,0 +1,11 @@
+@import "basicTemmplate";
+
+// variables
+$accordion-bg: #4d5158;
+$accordion-sub-bg: #35383d;
+$accordion-separator: #41444a;
+
+// background for main accordion items
+.is-accordion-submenu-parent a {
+  background: $accordion-bg;
+}
