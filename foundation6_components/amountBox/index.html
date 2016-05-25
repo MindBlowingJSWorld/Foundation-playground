@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Foundation | Welcome</title>
+    <!-- link rel="stylesheet" href="../../libraries/foundation/css/foundation.css"/ -->
+
+    <script type="text/javascript">
+        function Expand(obj){
+            if (!obj.savesize) obj.savesize=obj.size;
+            obj.size=Math.max(obj.savesize,obj.value.length);
+            console.log(obj.size);
+            console.log(obj.length);
+        }
+    </script>
+
+</head>
+<body>
+
+
+
+        <input
+            type="text"
+            size="5"
+            style="font-family:Courier;"
+            onkeyup="Expand(this);">
+
+
+
+
+<script src="../../libraries/foundation/js/vendor/jquery.min.js"></script>
+<script src="../../libraries/foundation/js/vendor/what-input.min.js"></script>
+<!-- script src="../../libraries/foundation/js/foundation.min.js"></script -->
+
+<script>
+    $(document).foundation();
+</script>
+
+</body>
+</html>
