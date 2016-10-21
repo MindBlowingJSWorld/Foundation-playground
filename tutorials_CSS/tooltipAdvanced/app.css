@@ -1,0 +1,17 @@
+
+.tooltip {
+    position: relative;
+}
+
+.tooltipBox {
+    padding: 15px;
+    background: red;
+    display: none;
+    position: relative;
+    width: 100%;
+    left: 10%;
+}
+
+.tooltipIcon:hover + .tooltipBox {
+    display: block !important;
+}
